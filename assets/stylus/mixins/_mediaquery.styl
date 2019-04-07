@@ -1,0 +1,11 @@
+mediaquery(bpName)
+	for name in bpName
+		if name == 'sm'
+			@media only screen and (max-width: breakpoint-sm)
+				{block}
+		if name == 'md'
+			@media only screen and (max-width: breakpoint-md)
+				{block}
+		if name == 'lg'
+			@media only screen and (max-width: breakpoint-lg)
+				{block}
